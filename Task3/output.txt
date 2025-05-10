@@ -1,1 +1,147 @@
 
+ahmednabil@AhmedNabil MINGW64 /h/Ahmed nabil nour 2205245 Assignment 6/lab/log-analysis
+$ chmod +x log_analysis.sh
+
+ahmednabil@AhmedNabil MINGW64 /h/Ahmed nabil nour 2205245 Assignment 6/lab/log-analysis
+$ ./log_analysis.sh access.log
+📊 ========== LOG FILE ANALYSIS ==========
+
+🔹 Request Counts
+Total Requests: 1569898
+GET Requests: 1565812
+POST Requests: 111
+
+🔹 Unique IP Addresses
+Total Unique IPs: 75060
+Top 5 GET requests by IP:
+   6528 edams.ksc.nasa.gov
+   4846 piweba4y.prodigy.com
+   4791 163.206.89.4
+   4607 piweba5y.prodigy.com
+   4416 piweba3y.prodigy.com
+Top 5 POST requests by IP:
+      8 seabrk.mindspring.com
+      6 155.33.77.108
+      5 pc0139.metrolink.net
+      5 n868370.ksc.nasa.gov
+      4 163.205.1.19
+
+🔹 Failure Requests
+Failures: 10489 (0.67%)
+
+🔹 Most Active IP
+   6530 edams.ksc.nasa.gov
+
+🔹 Daily Request Averages
+Total Days: 30
+Average Requests/Day: 52329.93
+
+🔹 Days with Most Failures
+    601 30/Aug/1995
+    541 31/Aug/1995
+    538 07/Aug/1995
+    453 29/Aug/1995
+    444 25/Aug/1995
+    441 24/Aug/1995
+    423 27/Aug/1995
+    417 28/Aug/1995
+    409 08/Aug/1995
+    378 06/Aug/1995
+
+🔹 Requests per Hour
+Hour 00: 47862 requests
+Hour 01: 38531 requests
+Hour 02: 32508 requests
+Hour 03: 29995 requests
+Hour 04: 26756 requests
+Hour 05: 27587 requests
+Hour 06: 31287 requests
+Hour 07: 47386 requests
+Hour 08: 65443 requests
+Hour 09: 78695 requests
+Hour 10: 88309 requests
+Hour 11: 95344 requests
+Hour 12: 105143 requests
+Hour 13: 104536 requests
+Hour 14: 101394 requests
+Hour 15: 109465 requests
+Hour 16: 99527 requests
+Hour 17: 80834 requests
+Hour 18: 66809 requests
+Hour 19: 59315 requests
+Hour 20: 59944 requests
+Hour 21: 57985 requests
+Hour 22: 60673 requests
+Hour 23: 54570 requests
+
+🔹 Status Codes Breakdown
+1396473 200
+ 134138 304
+  26422 302
+   9978 404
+    171 403
+    117 786
+     93 669
+     93 234
+     92 363
+     30 598
+     27 501
+     19 509
+     18 751
+     13 704
+     12 527
+      3 543
+      3 515
+      3 500
+      3 110
+      2 891
+      2 712
+      2 530
+      2 400
+      2 372
+      2 308
+      2 263
+      1 959
+      1 956
+      1 761
+      1 653
+      1 440
+      1 381
+      1 374
+      1 156
+      1 104
+
+🔹 Most Active IPs by Method
+GET:
+   6528 edams.ksc.nasa.gov
+POST:
+      8 seabrk.mindspring.com
+
+🔹 Failure Patterns by Hour
+Hour 12: 688 failures
+Hour 13: 631 failures
+Hour 02: 622 failures
+Hour 17: 599 failures
+Hour 16: 590 failures
+Hour 15: 562 failures
+Hour 14: 539 failures
+Hour 10: 500 failures
+Hour 23: 492 failures
+Hour 20: 469 failures
+Hour 22: 467 failures
+Hour 19: 457 failures
+Hour 11: 447 failures
+Hour 21: 443 failures
+Hour 18: 436 failures
+Hour 00: 405 failures
+Hour 03: 370 failures
+Hour 09: 362 failures
+Hour 01: 345 failures
+Hour 08: 342 failures
+Hour 07: 228 failures
+Hour 04: 182 failures
+Hour 05: 174 failures
+Hour 06: 139 failures
+
+ Analysis Complete.
+
